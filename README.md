@@ -3,8 +3,8 @@
 A 1-bit music visualizer for hard techno and schranz, at
 [khosraw.com/untergrund](https://khosraw.com/untergrund).
 
-The music writes into Conway's Game of Life. Each track is analysed ahead of time (beat, kick,
-sections and the instruments it is made of), and that analysis drives the automaton:
+The music writes into Conway's Game of Life. Each track is analysed ahead of time: its beat,
+kick, sections and the instruments it is made of. Then, as it plays:
 
 - **Kicks** stamp plain shapes that Life breaks apart.
 - **New sounds and hits** seed cells in the part of the screen their frequencies own.
