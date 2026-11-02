@@ -948,7 +948,7 @@ function frame(ts) {
       }
     }
   }
-  if (st.flashFrames > 0) { invert = !sc.invert; st.flashFrames--; }
+  if (st.flashFrames > 0) { if (st.strobe) invert = !sc.invert; st.flashFrames--; }
   st.invertFrames = Math.max(0, st.invertFrames - 1);
 
   let sig = null;

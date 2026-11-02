@@ -3,6 +3,9 @@
 A 1-bit music visualizer for hard techno and schranz, at
 [khosraw.com/untergrund](https://khosraw.com/untergrund).
 
+**Warning:** flashing lights and strobe effects. May trigger seizures in people with
+photosensitive epilepsy. `S` turns the strobe off, but the picture still flickers.
+
 The music writes into Conway's Game of Life. Each track is analysed ahead of time: its beat,
 kick, sections and the instruments it is made of. Then, as it plays:
 
